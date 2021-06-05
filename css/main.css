@@ -163,8 +163,8 @@ main {
 
 .text_box {
   color: #3c3c3c;
-  size: 5rem;
-  text-decoration: brown; }
+  size: 10rem;
+  font-weight: 1; }
 
 .about-info {
   display: grid;
@@ -300,7 +300,11 @@ main {
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: repeat(1fr); } }
+    grid-template-columns: repeat(1fr); }
+  background-image: cover; }
 
 .main-footer {
   justify-content: baseline; }
+
+.darken {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/background.jpg); }
